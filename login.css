@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right ,#427196ff,#6db68dff);
+    
+}
+.wrapper{
+    background: white;
+    width: 450px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 34%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+.wrapper h1{
+    text-align: center;
+    color: black;
+    font-family:'Montserrat';
+    padding-bottom: 10px;
+}
+.logo img{
+    height: 70px;
+    margin-top: 10px;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 35px;
+}
+.wrapper input{
+    margin: 10px;
+    padding: 3px;
+    width: 200px;
+    border: 0;
+    outline: 0;
+}
+.wrapper legend{
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.text{
+    background: white;
+    border-radius: 25px;
+    padding-right: 10px;
+    border: 1px solid black;
+    
+}
+.text button{
+    background-color: white;
+    color: black;
+    border: 0;
+}
+.login-button{
+    margin-top: 10px;
+    text-align: center;
+}
+.login-button button{
+    height: 30px;
+    width: 100px;
+    background: #427196ff;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    cursor:pointer
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

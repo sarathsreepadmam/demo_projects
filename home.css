@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: baseline;
+    width: 100%;
+    background-image: linear-gradient(to right ,#427196ff,#6db68dff);
+    height: 12dvh;
+}
+.navbar .logo img{
+    height: 35px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 17px;
+    background: white;
+    border-radius: 50px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.navbar .user-button button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 0;
+    margin-top: 18px;
+    background-color: white;
+    color: #6db68dff;
+    cursor: pointer;
+}
+.mainbody{
+    width: 100%;
+}
+.heading-1{
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.heading-1 h1{
+    width: 95%;
+    font-size: 45px;
+    font-family: 'Playfair display';
+    letter-spacing:1px;
+    line-height: 70px;
+    
+
+}
+.heading-1 p{
+    width: 80%;
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: 'Montserrat';
+}
+.heading-1 .get-started{
+    background-color: #427196ff;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+    height: 35px;
+    width: 150px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    
+}
+.map-pic{
+    float: right;
+    margin-top: 10%;
+}
+/* .heading-1{
+    padding-top: 100px;
+    width: 550px;
+    padding-left: 50px;
+}
+.heading-1 h1{
+    font-family: 'Playfair display';
+    font-size: 45px;
+    
+}
+.heading-1 h2{
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Montserrat';
+} */
+/* form{
+    float: right;
+    margin-top: 15px;
+    margin-right: 110px;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid transparent; 
+    display: flex;
+    float: right;
+    align-items: center;
+} */
+ form{
+    margin-top: 20px;
+    margin-right: 50px;
+    display: inline-flex;
+    width: 60vh;
+    background-color: white;
+    border-radius: 20px;
+
+    
+ }
+.user-button{
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+
+ }
+.options{
+    float: right;
+    display: inline;
+}
+form input{
+    width: 50vh;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+form button{
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    padding-left: 7px;
+}
+/* .get-started{
+    padding-left: 60px;
+    padding-top: 20px;
+    background-color: #f97d09;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+} */
